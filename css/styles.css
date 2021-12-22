@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+:root{
+    --Soft_blue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    --Very_dark_blue_main: hsl(217, 54%, 11%);
+    --Very_dark_blue_card: hsl(216, 50%, 16%);
+    --Very_dark_blue_line: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+}
+
+body{
+    background-color: var(--Very_dark_blue_main);
+    color: var(--White);
+    font-family: Outfit;
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+}
+
+.card{
+    background-color: var(--Very_dark_blue_card);
+}
+
+
+.avatar{
+    width: 40px;
+}
+
+.radius-15{
+    border-radius: 15px;
+}
+
+.soft-blue{
+    color: var(--Soft_blue);
+}
+
+.cyan{
+    color: var(--Cyan);
+}
+
+.hover:hover{
+    cursor: pointer;
+    color: var(--Cyan);
+    transition: all 0.3s ease-out 0s;
+}
+
+.cover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--Cyan);
+    opacity: 0;
+    transition: all 0.3s ease-out 0s;
+}
+
+.cover:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.link{
+    color: var(--White);
+    transition: all 0.3s ease-out 0s;
+
+}
